@@ -27,10 +27,10 @@ public class SpringDemoAutowireRunner implements CommandLineRunner
         log.info("Money Service Name: {}", moneyServiceName);
         
         // release Spring Context resources
-        context.close();
+//        context.close();
         
         // Close Application
-        System.exit(0);
+//        System.exit(0);
     }
 
 }
