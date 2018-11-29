@@ -1,8 +1,10 @@
 package com.raseals.springdemoautowire.service;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Service("francService")
+@Service
+@Profile("francService")
 public class FrancService implements MoneyService
 {
 
